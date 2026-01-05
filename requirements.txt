@@ -4,3 +4,4 @@ numpy
 sentence-transformers
 google-generativeai
 pypdf
+python-dotenv
