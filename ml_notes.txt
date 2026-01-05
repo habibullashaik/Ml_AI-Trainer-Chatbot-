@@ -1,0 +1,434 @@
+1️⃣ What is Machine Learning?
+
+Machine Learning (ML) is a subset of Artificial Intelligence that enables systems to learn patterns from data and make predictions or decisions without being explicitly programmed.
+
+Core idea:
+Instead of writing rules → we let the model learn rules from data.
+
+Mathematical view:
+ML finds a function f(x) that maps input x to output y by minimizing error.
+
+2️⃣ Types of Machine Learning
+2.1 Supervised Learning
+
+Data has input + correct output (labels)
+
+Goal: Learn mapping from X → Y
+
+Examples:
+
+Email spam detection
+
+House price prediction
+
+Disease diagnosis
+
+Main tasks:
+
+Classification → Predict category (Spam / Not Spam)
+
+Regression → Predict continuous value (Price, Salary)
+
+2.2 Unsupervised Learning
+
+Data has no labels
+
+Goal: Discover hidden structure
+
+Examples:
+
+Customer segmentation
+
+Topic modeling
+
+Anomaly detection
+
+Main tasks:
+
+Clustering (grouping)
+
+Dimensionality reduction
+
+2.3 Semi-Supervised Learning
+
+Small labeled data + large unlabeled data
+
+Used when labeling is expensive
+
+2.4 Reinforcement Learning
+
+Agent learns by trial and error
+
+Uses reward and punishment
+
+Core elements:
+
+Agent
+
+Environment
+
+Action
+
+Reward
+
+Policy
+
+3️⃣ Machine Learning Workflow (End-to-End)
+
+Problem definition
+
+Data collection
+
+Data cleaning
+
+Exploratory Data Analysis (EDA)
+
+Feature engineering
+
+Model selection
+
+Training
+
+Evaluation
+
+Hyperparameter tuning
+
+Deployment
+
+Monitoring & retraining
+
+4️⃣ Data Types in ML
+4.1 Structured Data
+
+Rows & columns
+
+Example: CSV, SQL tables
+
+4.2 Unstructured Data
+
+Text, images, audio, video
+
+4.3 Semi-Structured Data
+
+JSON, XML, logs
+
+5️⃣ Feature Engineering
+
+Feature engineering is the process of creating meaningful inputs for ML models.
+
+Techniques:
+
+Encoding categorical variables
+
+Scaling numerical features
+
+Creating interaction features
+
+Date/time extraction
+
+Text vectorization
+
+Why it matters:
+Better features > better models.
+
+6️⃣ Feature Scaling
+6.1 Standardization
+(x - mean) / std
+
+6.2 Normalization
+(x - min) / (max - min)
+
+
+Required for:
+
+KNN
+
+SVM
+
+Neural Networks
+
+K-Means
+
+7️⃣ Train, Validation, Test Split
+
+Training set → Learn
+
+Validation set → Tune
+
+Test set → Final evaluation
+
+Typical splits:
+
+70 / 15 / 15
+
+80 / 20
+
+8️⃣ Overfitting vs Underfitting
+Overfitting
+
+Model learns noise
+
+High train accuracy, low test accuracy
+
+Underfitting
+
+Model too simple
+
+Poor performance everywhere
+
+Solution:
+
+Regularization
+
+More data
+
+Better features
+
+Proper model complexity
+
+9️⃣ Bias–Variance Tradeoff
+
+High Bias → Underfitting
+
+High Variance → Overfitting
+
+Goal: Balance both.
+
+🔟 Common ML Algorithms
+10.1 Linear Regression
+
+Predict continuous values
+
+Assumes linear relationship
+
+Cost function: Mean Squared Error
+
+10.2 Logistic Regression
+
+Used for classification
+
+Outputs probability (0–1)
+
+Uses sigmoid function
+
+10.3 K-Nearest Neighbors (KNN)
+
+Instance-based learning
+
+Uses distance (Euclidean)
+
+Pros: Simple
+Cons: Slow for large data
+
+10.4 Decision Tree
+
+Tree-based model
+
+Uses conditions to split data
+
+Pros: Interpretable
+Cons: Overfitting
+
+10.5 Random Forest
+
+Ensemble of decision trees
+
+Uses bagging
+
+Benefits:
+
+Reduces variance
+
+Better generalization
+
+10.6 Support Vector Machine (SVM)
+
+Finds optimal separating hyperplane
+
+Uses kernel trick
+
+10.7 Naive Bayes
+
+Probabilistic classifier
+
+Based on Bayes theorem
+
+Assumes feature independence
+
+10.8 K-Means Clustering
+
+Unsupervised algorithm
+
+Groups data into K clusters
+
+10.9 Principal Component Analysis (PCA)
+
+Dimensionality reduction
+
+Maximizes variance
+
+1️⃣1️⃣ Evaluation Metrics
+Classification
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+ROC-AUC
+
+Confusion Matrix
+
+Regression
+
+MAE
+
+MSE
+
+RMSE
+
+R² Score
+
+1️⃣2️⃣ Cross-Validation
+
+Cross-validation splits data multiple times to ensure stability.
+
+K-Fold CV:
+
+Data split into K parts
+
+Train K times
+
+1️⃣3️⃣ Hyperparameter Tuning
+
+Grid Search
+
+Random Search
+
+Bayesian Optimization
+
+1️⃣4️⃣ Regularization
+
+Used to prevent overfitting.
+
+L1 (Lasso)
+
+L2 (Ridge)
+
+ElasticNet
+
+1️⃣5️⃣ Ensemble Learning
+
+Combining multiple models.
+
+Bagging
+
+Boosting
+
+Stacking
+
+1️⃣6️⃣ Common ML Problems
+
+Missing values
+
+Imbalanced data
+
+Data leakage
+
+High dimensionality
+
+Concept drift
+
+1️⃣7️⃣ ML vs Deep Learning
+ML	Deep Learning
+Needs feature engineering	Learns features
+Works on small data	Needs large data
+Interpretable	Black box
+1️⃣8️⃣ ML Libraries
+
+NumPy
+
+Pandas
+
+Scikit-learn
+
+Matplotlib
+
+Seaborn
+
+XGBoost
+
+LightGBM
+
+1️⃣9️⃣ ML in Production
+
+Model versioning
+
+Data drift detection
+
+Monitoring
+
+Retraining
+
+Logging
+
+2️⃣0️⃣ Interview-Level Concepts
+
+Curse of dimensionality
+
+Bias vs variance
+
+Data leakage
+
+Feature importance
+
+Explainable AI (XAI)
+
+SHAP, LIME
+
+2️⃣1️⃣ ML Use Cases
+
+Recommendation systems
+
+Fraud detection
+
+NLP
+
+Computer vision
+
+Healthcare
+
+Finance
+
+2️⃣2️⃣ Key ML Terminology
+
+Model
+
+Feature
+
+Label
+
+Epoch
+
+Batch
+
+Loss function
+
+Optimizer
+
+Inference
+
+2️⃣3️⃣ Best Practices
+
+Start simple
+
+Understand data deeply
+
+Avoid leakage
+
+Validate properly
+
+Monitor in production

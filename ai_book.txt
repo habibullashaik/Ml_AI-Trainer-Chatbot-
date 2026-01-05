@@ -1,0 +1,297 @@
+AI FUNDAMENTALS – END-TO-END KNOWLEDGE BASE (PDF CONTENT)
+
+Artificial Intelligence (AI) is the field of computer science focused on building systems that can perform tasks requiring human intelligence such as reasoning, learning, perception, decision-making, and language understanding.
+
+AI systems simulate human intelligence using algorithms, data, and computational models.
+
+TYPES OF ARTIFICIAL INTELLIGENCE
+
+Artificial Intelligence is categorized into three main types based on capability.
+
+Narrow AI (Weak AI) is designed to perform a specific task. Examples include chatbots, recommendation systems, voice assistants, and spam filters.
+
+General AI (Strong AI) refers to systems that can perform any intellectual task a human can do. This level of AI does not currently exist.
+
+Super AI refers to intelligence that surpasses human intelligence in all aspects including creativity, problem-solving, and emotional intelligence. This is theoretical.
+
+CORE SUBFIELDS OF AI
+
+Machine Learning is a subset of AI that enables systems to learn from data and improve performance without explicit programming.
+
+Deep Learning is a subset of Machine Learning that uses multi-layer neural networks to learn complex patterns.
+
+Natural Language Processing enables machines to understand, interpret, and generate human language.
+
+Computer Vision allows machines to interpret and process visual data such as images and videos.
+
+Robotics combines AI with mechanical systems to perform physical tasks.
+
+Expert Systems simulate decision-making abilities of human experts using rules and knowledge bases.
+
+MACHINE LEARNING OVERVIEW
+
+Machine Learning focuses on building models that learn patterns from data.
+
+ML models learn a mapping between input features and output labels.
+
+The goal of ML is to minimize prediction error on unseen data.
+
+TYPES OF MACHINE LEARNING
+
+Supervised Learning uses labeled data to train models. Each data point has an input and a known output.
+
+Classification predicts categorical outputs such as spam or not spam.
+
+Regression predicts continuous values such as prices or temperatures.
+
+Unsupervised Learning uses unlabeled data to discover hidden structures.
+
+Clustering groups similar data points together.
+
+Dimensionality Reduction reduces the number of features while preserving important information.
+
+Semi-Supervised Learning uses a small labeled dataset combined with a large unlabeled dataset.
+
+Reinforcement Learning involves an agent interacting with an environment to maximize cumulative reward.
+
+MACHINE LEARNING WORKFLOW
+
+Problem definition identifies the objective and success criteria.
+
+Data collection gathers relevant raw data.
+
+Data preprocessing cleans missing values, removes noise, and formats data.
+
+Exploratory Data Analysis identifies patterns, trends, and anomalies.
+
+Feature engineering creates meaningful input features.
+
+Model selection chooses appropriate algorithms.
+
+Model training learns parameters from data.
+
+Evaluation measures model performance using metrics.
+
+Hyperparameter tuning improves model performance.
+
+Deployment makes the model available for inference.
+
+Monitoring tracks performance and detects data drift.
+
+DATA TYPES IN AI
+
+Structured data is organized in rows and columns.
+
+Unstructured data includes text, images, audio, and video.
+
+Semi-structured data includes JSON, XML, and logs.
+
+FEATURES AND LABELS
+
+A feature is an input variable used by the model.
+
+A label is the target output the model predicts.
+
+Feature engineering improves model performance more than algorithm choice.
+
+FEATURE SCALING
+
+Normalization rescales data to a fixed range.
+
+Standardization rescales data to have zero mean and unit variance.
+
+Scaling is required for distance-based and gradient-based models.
+
+TRAINING AND TESTING
+
+Training data is used to fit the model.
+
+Validation data is used for tuning hyperparameters.
+
+Test data is used for final evaluation.
+
+Data leakage occurs when test information leaks into training.
+
+MODEL PERFORMANCE ISSUES
+
+Overfitting occurs when a model learns noise instead of patterns.
+
+Underfitting occurs when a model is too simple to capture patterns.
+
+Bias refers to systematic error from incorrect assumptions.
+
+Variance refers to sensitivity to data fluctuations.
+
+The bias–variance tradeoff balances model complexity.
+
+COMMON MACHINE LEARNING ALGORITHMS
+
+Linear Regression predicts continuous values using a linear relationship.
+
+Logistic Regression predicts probabilities for classification.
+
+K-Nearest Neighbors classifies data based on nearest neighbors.
+
+Decision Trees split data using conditions.
+
+Random Forest combines multiple decision trees to reduce variance.
+
+Support Vector Machines find optimal separating boundaries.
+
+Naive Bayes uses probability theory and independence assumptions.
+
+K-Means clusters data into K groups.
+
+Principal Component Analysis reduces dimensionality by maximizing variance.
+
+EVALUATION METRICS
+
+Accuracy measures overall correctness.
+
+Precision measures correctness of positive predictions.
+
+Recall measures ability to find actual positives.
+
+F1-score balances precision and recall.
+
+ROC-AUC measures class separation ability.
+
+Mean Absolute Error measures average prediction error.
+
+Mean Squared Error penalizes larger errors.
+
+R-squared measures variance explained by the model.
+
+REGULARIZATION
+
+Regularization prevents overfitting.
+
+L1 regularization performs feature selection.
+
+L2 regularization penalizes large weights.
+
+Elastic Net combines L1 and L2.
+
+ENSEMBLE LEARNING
+
+Bagging trains models independently and aggregates results.
+
+Boosting trains models sequentially focusing on errors.
+
+Stacking combines predictions from multiple models.
+
+DEEP LEARNING OVERVIEW
+
+Deep Learning uses neural networks with multiple layers.
+
+Neurons compute weighted sums followed by activation functions.
+
+Activation functions introduce non-linearity.
+
+Backpropagation updates weights using gradients.
+
+Optimizers adjust weights to minimize loss.
+
+COMMON NEURAL NETWORK TYPES
+
+Feedforward Neural Networks process data in one direction.
+
+Convolutional Neural Networks are used for image processing.
+
+Recurrent Neural Networks handle sequential data.
+
+Transformers use attention mechanisms for language tasks.
+
+NATURAL LANGUAGE PROCESSING
+
+NLP processes and understands human language.
+
+Tokenization splits text into words or tokens.
+
+Embedding converts text into numerical vectors.
+
+Language models predict next tokens based on context.
+
+COMPUTER VISION
+
+Computer Vision enables machines to understand images.
+
+Tasks include classification, detection, and segmentation.
+
+CNNs are widely used in vision tasks.
+
+AI ETHICS AND RISKS
+
+Bias in AI arises from biased data.
+
+Explainability is critical for trust.
+
+Privacy and security must be maintained.
+
+Responsible AI ensures fairness and transparency.
+
+AI IN PRODUCTION
+
+Model versioning tracks changes.
+
+Monitoring detects performance degradation.
+
+Data drift occurs when input data changes over time.
+
+Retraining updates models with new data.
+
+REAL-WORLD AI APPLICATIONS
+
+Recommendation systems suggest products or content.
+
+Fraud detection identifies abnormal behavior.
+
+Healthcare AI assists diagnosis and treatment.
+
+Autonomous systems control vehicles and robots.
+
+Chatbots provide automated customer support.
+
+IMPORTANT AI TERMINOLOGY
+
+Model is a learned function.
+
+Parameters are learned weights.
+
+Hyperparameters control learning behavior.
+
+Inference is prediction on new data.
+
+Loss function measures error.
+
+Optimizer updates parameters.
+
+Epoch is one full pass over data.
+
+Batch is a subset of data.
+
+AI BEST PRACTICES
+
+Understand the problem deeply.
+
+Start with simple models.
+
+Focus on data quality.
+
+Avoid data leakage.
+
+Evaluate properly.
+
+Monitor continuously.
+
+AI FOR RAG SYSTEMS
+
+AI knowledge must be factual and unambiguous.
+
+Chunk size should be moderate.
+
+Avoid unnecessary verbosity.
+
+Prefer definitions and explanations.
+
+Ensure broad topic coverage.
